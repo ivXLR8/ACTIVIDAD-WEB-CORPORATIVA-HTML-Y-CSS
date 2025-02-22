@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Que comience el juego!</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <form action="raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div class="campo">
+                <label for="nombre">Nombre*:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="campo">
+                <label for="apellidos">Apellidos*:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div class="campo">
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="campo">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dirección Postal</legend>
+            <div class="campo">
+                <label for="calle">Calle:</label>
+                <input type="text" id="calle" name="calle">
+            </div>
+            <div class="campo">
+                <label for="número">Número:</label>
+                <input type="text" id="número" name="número">
+            </div>
+            <div class="campo">
+                <label for="piso">Piso:</label>
+                <input type="text" id="piso" name="piso">
+            </div>
+            <div class="campo">
+                <label for="cp">C.P:</label>
+                <input type="text" id="cp" name="cp">
+            </div>
+            <div class="campo">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seleccione su sexo</legend>
+            <div class="campo2">
+                <input type="radio" id="sexo_h" name="sexo" value="H">
+                <label for="sexo_h">Hombre</label>
+            </div>
+
+            <div class="campo2">
+                <input type="radio" id="sexo_m" name="sexo" value="M">
+                <label for="sexo_m">Mujer</label>
+            </div>
+            <div class="campo2">
+                <input type="radio" id="sexo_nr" name="sexo" value="NR">
+                <label for="sexo_nr">No Responder</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seleccione su fecha de nacimiento</legend>
+            <div class="campo3">
+                <input type="date" name="fecha" id="fecha">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Seleccione su personaje favorito:</legend>
+            <div class="campo3">
+
+                <select name="sistemas">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="5">Otros personajes</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios:</legend>
+            <div class="campo3">
+                <textarea name="Libertad">Escribe el texto que desees</textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Adjuntar archivos</legend>
+            <div class="campo3">
+                <input type="file" name="file" id="file">
+            </div>
+        </fieldset>
+        <div id="botones">
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+        </div>
+    </form>
+</body>
+
+</html>
